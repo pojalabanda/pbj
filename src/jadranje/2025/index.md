@@ -10,5 +10,6 @@ apply: https://forms.gle/C84ftBPLJxugTsKd8
 active: true
 summary: "Sprejemamo prijave: 3. - 6. december 2025"
 sponsors:
+    - marina-vrsar
     - pojalabanda
 ---
