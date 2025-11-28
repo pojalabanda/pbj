@@ -7,6 +7,7 @@ nor: /assets/2025/Program-osnutek-PBJ-2025.pdf
 rules: /assets/2025/Pravila-PBJ-2025.pdf
 attendees: prijave/
 apply: https://forms.gle/C84ftBPLJxugTsKd8
+weather: vreme/
 active: true
 summary: "Sprejemamo prijave: 3. - 6. december 2025"
 sponsors:
