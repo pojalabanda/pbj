@@ -16,3 +16,4 @@ eleventyExcludeFromCollections: true
 | 7. | Eva Marina    ![EvaMarina](/assets/2025/boats/evamarina.jpg) | Beneteau Oceanis 43 | Franko Jakomin    |   6   |
 | 8. | Trma          ![Trma](/assets/2025/boats/trma.jpg)           | Elan 333            | Kristjan Benedik  |   4   |
 | 9. | Praznični dan ![PD](/assets/2025/boats/praznicnidan.jpg)     | Pogo 850            | Emil Kozamernik   |   2   |
+| 10.| Fado          ![Fado](/assets/2025/boats/fado.jpg)           | Salona 37           | Tomaž Kogovšek    |   5   |
