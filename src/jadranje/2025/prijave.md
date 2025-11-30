@@ -17,3 +17,4 @@ eleventyExcludeFromCollections: true
 | 8. | Trma          ![Trma](/assets/2025/boats/trma.jpg)           | Elan 333            | Kristjan Benedik  |   4   |
 | 9. | Praznični dan ![PD](/assets/2025/boats/praznicnidan.jpg)     | Pogo 850            | Emil Kozamernik   |   2   |
 | 10.| Fado          ![Fado](/assets/2025/boats/fado.jpg)           | Salona 37           | Tomaž Kogovšek    |   5   |
+| 11.| Žisa          ![Žisa](/assets/2025/boats/zisa.jpg)           | Triplast Y-37       | Branko Horvat     |   4   |
