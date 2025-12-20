@@ -29,4 +29,4 @@ Privezali smo se v marini Polesana in nekateri smo druženje nadaljevali v marin
 Tretja etapa je **Pulj - Sv. Ivan - Vrsar**, start smo postavili na južno stran Briona in ponovno nas je čakala orca do Vrsarja. Startali smo z 7 vz vetra, ki pa je na zunanji strani lepo naraščal do lepih 13-14 vz. Pod Sv. Ivanomm je ponovno nekaj bark obstalo v malo šibkejšem vetru, na srečo se je situacija hitro spremenila, tako da smo že pri vmesnem cilju nekateri morali narediti krajšave jader, saj je pihalo med 20-22 vz iz NW. Tokratno etapo so vse barke pravočasno dosegle končni cilj na valobranu v marini Vrsar. Pol ure po prihodu zadnje barke v cilj smo naredili tudi razglasitev rezultatov in podelitev prehodnih pokalov novim nosilcem. Zvečer pa se je nekaj bark še družilo v bližnji restavraciji in po barkah.
 
 ## Vtisi
- - [PBJ 2025 - foto - avtor: M.Ketiš,L.Renko](https://photos.app.goo.gl/pTYgnYyZr2RqhLoa7)
+ - [PBJ 2025 - foto - avtor: U.Grošelj,A.Novak,M.Ketiš,D.Lavbič,E.Leskovšek,L.Renko](https://photos.app.goo.gl/pTYgnYyZr2RqhLoa7)
