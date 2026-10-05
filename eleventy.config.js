@@ -1,9 +1,9 @@
-const fs = require("fs")
-const sass = require("sass")
-const path = require("path")
+import fs from "fs"
+import path from "path"
 
-const Image = require("@11ty/eleventy-img")
-const VitePlugin = require("@11ty/eleventy-plugin-vite");
+import Image from "@11ty/eleventy-img"
+import VitePlugin from "@11ty/eleventy-plugin-vite"
+import tailwindcss from "@tailwindcss/vite"
 
 async function imageShortcode(src, alt, sizes) {
     const imagePath = src.startsWith('/') ? src : path.join(path.dirname(this.page.inputPath), src)
@@ -35,7 +35,7 @@ function isOptionDir(dirName) {
   return /^[a-z0-9]+$/.test(dirName);
 }
 
-module.exports = function(eleventyConfig) {
+export default function(eleventyConfig) {
     const baseDir = "public/assets";
     const potentialYears = fs.readdirSync(baseDir);
 
@@ -65,6 +65,7 @@ module.exports = function(eleventyConfig) {
 
     eleventyConfig.addPlugin(VitePlugin, {
         viteOptions: {
+            plugins: [tailwindcss()],
             server: {
                 // Allow access to dev server over Tailscale
                 allowedHosts: [".ts.net"],

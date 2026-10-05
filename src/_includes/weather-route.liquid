@@ -2,7 +2,7 @@
     {% for image in collections[route] %}
         <div class="forecast-image relative">
             <img src="{{ image.url }}" alt="{{ image.name }}" class="w-full h-auto rounded-lg shadow-lg">
-            <div class="absolute top-0 right-0 bg-black bg-opacity-50 text-white p-2 text-sm rounded-lg">
+            <div class="absolute top-0 right-0 bg-black/50 text-white p-2 text-sm rounded-lg">
                 {{ image.name }}
             </div>
             <button id="prevButton-{{ route }}" class="forecast-prev left-0 absolute inset-y-0 w-1/5 h-full bg-transparent flex items-center justify-start" aria-label="Previous"><img src="/assets/arrow-left.svg" alt="Previous" class="w-10 lg:w-14"></button>

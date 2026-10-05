@@ -3,7 +3,7 @@ layout: base.html
 ---
 {% block content %}
 <div class="prose lg:prose-lg prose-neutral mx-auto px-gap prose-headings:font-sans prose-headings:font-bold">
-    <h1 class="!mb-gap">{% block title %}{{ title }} - PBJ {{ year }}{% endblock %}</h1>
+    <h1 class="mb-gap!">{% block title %}{{ title }} - PBJ {{ year }}{% endblock %}</h1>
 
     {% if summary %}
         {% block lead %}{% endblock %}
@@ -27,7 +27,7 @@ layout: base.html
     {% endif %}
 
                 {% if results or winner_abs or winner_cor %}
-                    <h2 class="!mb-gap">{% block title %} Rezultati {% endblock %}</h2>
+                    <h2 class="mb-gap!">{% block title %} Rezultati {% endblock %}</h2>
                     <ul>
                     {% if winner_abs %}
                         <li>Zmagovalec - absolutno: <b>{{ winner_abs }}</b></li>
@@ -44,7 +44,7 @@ layout: base.html
                 {% endif %}
 
                 {% if nor or rules or apply or attendees or weather %}
-                    <h2 class="!mb-gap">{% block title %} Razpisni dokumenti {% endblock %}</h2>
+                    <h2 class="mb-gap!">{% block title %} Razpisni dokumenti {% endblock %}</h2>
                     <ul>
                     {% if nor %}
                         <li><a href="{{ nor }}" target="_blank" class="no-underline border-b-2 border-link hover:bg-link-hover">Program</a></li>
@@ -76,7 +76,7 @@ layout: base.html
     {{ content }}
 
     {% if sponsors %}
-        <h2 class="!mb-gap">{% block title %} Donatorji in sponzorji {% endblock %}</h2>
+        <h2 class="mb-gap!">{% block title %} Donatorji in sponzorji {% endblock %}</h2>
 
         <div class="container mx-auto">
             <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4">

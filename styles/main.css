@@ -1,0 +1,71 @@
+@import "tailwindcss" source(none);
+/* paths relative to dist/styles/ (Vite root is the build output) */
+@source "../../src";
+@source "../../code";
+
+@plugin "@tailwindcss/typography";
+
+@theme {
+    --color-primary: #1c1c1c;
+    --color-secondary: #e6242d;
+    --color-tertiary: #f5f5f5;
+    --color-muted: #7a7a7a;
+    --color-link: #f4c10b;
+    --color-link-hover: #f4c10b;
+
+    --spacing-gap: 1rem;
+    --spacing-2gap: 2rem;
+    --spacing-3gap: 3rem;
+    --spacing-4gap: 4rem;
+    --spacing-5gap: 5rem;
+    --spacing-6gap: 6rem;
+    --spacing-7gap: 7rem;
+    --spacing-8gap: 8rem;
+
+    --font-serif: Bitter, Arial, Helvetica, serif;
+    --font-sans: "IBM Plex Sans", sans-serif;
+}
+
+@utility prose {
+    color: #212529;
+}
+
+@layer base {
+    *,
+    ::after,
+    ::before,
+    ::backdrop,
+    ::file-selector-button {
+        border-color: #d5d4d3;
+    }
+
+    h1 {
+        @apply after:block after:mt-6 after:w-[50px] after:h-[6px] after:bg-secondary;
+    }
+}
+
+@layer components {
+    .lead {
+        @apply font-sans! font-semibold! leading-snug! text-black! py-2gap! mb-2gap! border-y!;
+    }
+
+    .image {
+        @apply lg:-mx-[100px];
+
+        img {
+            @apply w-full h-auto;
+        }
+    }
+
+    .btn {
+        @apply inline-block font-sans text-secondary bg-primary px-3 py-1 rounded-md;
+    }
+
+    .btn-sm {
+        @apply text-sm;
+    }
+
+    .btn[disabled] {
+        @apply opacity-40;
+    }
+}
