@@ -64,7 +64,12 @@ module.exports = function(eleventyConfig) {
     });
 
     eleventyConfig.addPlugin(VitePlugin, {
-        // Any plugin options can go here
+        viteOptions: {
+            server: {
+                // Allow access to dev server over Tailscale
+                allowedHosts: [".ts.net"],
+            },
+        },
     });
 
     // Pass-through files
