@@ -43,7 +43,7 @@ function nextImage() {
     changeImage (1);
 }
 
-forecastSelector.addEventListener('change', updateForecasts);
+forecastSelector?.addEventListener('change', updateForecasts);
 
 const prevButtons = document.querySelectorAll('.forecast-prev');
 prevButtons.forEach(btn => btn.addEventListener('click', prevImage));
@@ -64,5 +64,5 @@ allForecasts.forEach(fc => {
 });
 
 document.addEventListener('DOMContentLoaded', () => {
-    updateForecasts();
+    if (forecastSelector) updateForecasts();
 });
