@@ -6,3 +6,8 @@ node_modules
 
 dist
 .11ty-vite
+
+# Windy zajem
+scripts/windy/.profile
+scripts/windy/logs
+scripts/windy/test-out

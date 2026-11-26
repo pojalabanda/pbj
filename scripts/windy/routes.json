@@ -1,0 +1,28 @@
+{
+  "year": 2026,
+  "speedKt": 5,
+  "model": "ecmwf",
+  "overlay": "gust",
+  "viewport": {
+    "width": 600,
+    "height": 600,
+    "scale": 2
+  },
+  "routes": [
+    {
+      "id": "a1",
+      "windyRoute": "PBJ-01-Vrsar-Ilovik",
+      "departure": "2026-12-02T21:00"
+    },
+    {
+      "id": "a2",
+      "windyRoute": "PBJ-02-Ilovik-Pula",
+      "departure": "2026-12-04T09:00"
+    },
+    {
+      "id": "a3",
+      "windyRoute": "PBJ-03-Pula-Vrsar",
+      "departure": "2026-12-05T09:00"
+    }
+  ]
+}

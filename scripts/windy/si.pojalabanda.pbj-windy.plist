@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>Label</key><string>si.pojalabanda.pbj-windy</string>
+  <key>ProgramArguments</key>
+  <array><string>/Users/lukarenko/devel/pbj/scripts/windy/run.sh</string></array>
+  <!-- Po lokalnem času: 10:00 (ECMWF run 00Z) in 22:00 (ECMWF run 12Z).
+       Če posnetek za trenutni run že obstaja, skripta ne naredi ničesar. -->
+  <key>StartCalendarInterval</key>
+  <array>
+    <dict><key>Hour</key><integer>10</integer><key>Minute</key><integer>0</integer></dict>
+    <dict><key>Hour</key><integer>22</integer><key>Minute</key><integer>0</integer></dict>
+  </array>
+  <key>StandardErrorPath</key><string>/Users/lukarenko/devel/pbj/scripts/windy/logs/launchd.err</string>
+</dict>
+</plist>
