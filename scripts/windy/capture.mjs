@@ -194,11 +194,12 @@ async function main() {
       const paywall = await page.getByText('Access Route Planner').filter({ visible: true }).count();
       if (!loggedIn || paywall > 0) throw new Error('Ni prijave v Windy Premium – zaženi: npm run login');
 
-      await page.evaluate(({ model, overlay, depMs }) => {
+      await page.evaluate(({ model, overlay, particles, depMs }) => {
         W.store.set('product', model);
         W.store.set('overlay', overlay);
+        W.store.set('particlesAnim', particles);   // "on" / "off" (routes.json)
         W.store.set('timestamp', depMs);
-      }, { model: cfg.model, overlay: cfg.overlay ?? 'gust', depMs });
+      }, { model: cfg.model, overlay: cfg.overlay ?? 'gust', particles: cfg.particles ?? 'on', depMs });
 
       // Hitrost jadrnice
       const speed = page.locator('.rplanner-speed__input');

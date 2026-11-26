@@ -3,6 +3,7 @@
   "speedKt": 5,
   "model": "ecmwf",
   "overlay": "gust",
+  "particles": "on",
   "viewport": {
     "width": 600,
     "height": 600,
