@@ -15,3 +15,4 @@ eleventyExcludeFromCollections: true
 | 6. | Electra       ![Electra](/assets/2026/boats/electra.jpg)     | Aquavit 355         | Roman Trobec      |   3   |
 | 7. | Praznični dan ![PD](/assets/2026/boats/praznicnidan.jpg)     | Pogo 850            | Emil Kozamernik   |   2   |
 | 8. | Trma          ![Trma](/assets/2026/boats/trma.jpg)           | Elan 333            | Kristjan Benedik  |   4   |
+| 9. | Fado          ![Fado](/assets/2026/boats/fado.jpg)           | Salona 37           | Tomaž Kogovšek    |   4   |
