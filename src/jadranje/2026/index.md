@@ -11,5 +11,6 @@ apply: https://forms.gle/AmTJ1cR3fEANHkt29
 active: true
 summary: "Sprejemamo prijave: 2. - 5. december 2026"
 sponsors:
+    - marina-vrsar
     - pojalabanda
 ---
